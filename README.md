@@ -2,7 +2,7 @@
 
 Code for NLPCC2025 (Shared Task1) paper: **EnsemJudge: Enhancing Reliability in Chinese LLM-Generated Text Detection through Diverse Model Ensembles**
 
-**Disclaimer:** This repository only showcases the intermediate code and results during the competition (https://github.com/NLP2CT/NLPCC-2025-Task1), in which we achieved **first place**. Since then, we have significantly expanded the system. Its capabilities now go beyond machine-generated text detection and include a frontend interface.
+**Disclaimer:** This repository only showcases the intermediate code and results during the competition (https://github.com/NLP2CT/NLPCC-2025-Task1), in which we achieved **first place**. Since then, we have significantly expanded the system. Its capabilities now go beyond machine-generated text detection and include a frontend interface. Feel free to contact us (https://github.com/ASCII-LAB) if you are interested. 
 
 ## 使用方法
 ### 必要准备
@@ -41,7 +41,7 @@ Code for NLPCC2025 (Shared Task1) paper: **EnsemJudge: Enhancing Reliability in 
 2. 初次运行时，必须指定两张 V100 级别以上的 GPU
 
 ```bash
-cd mgtd-sys
+cd MGT-Mini
 CUDA_VISIBLE_DEVICES=0,1 python -m detector.model.ensemble_model
 ```
 
