@@ -1,11 +1,16 @@
-# mgtd-sys
+# MGT-Mini
 
-项目代码仓库（将在提交截止时公开）：[https://github.com/johnsonwangzs/mgtd-sys](https://github.com/johnsonwangzs/mgtd-sys)
+Code for NLPCC2025 (Shared Task1) paper: **EnsemJudge: Enhancing Reliability in Chinese LLM-Generated Text Detection through Diverse Model Ensembles**
 
-方案设计说明（将在提交截止时公开）：[https://www.yuque.com/johnsonwangzs/ikuc6g/yufoovloguego23t](https://www.yuque.com/johnsonwangzs/ikuc6g/yufoovloguego23t)
+**Disclaimer:** This repository only showcases the intermediate code and results during the competition (https://github.com/NLP2CT/NLPCC-2025-Task1), in which we achieved **first place**. Since then, we have significantly expanded the system. Its capabilities now go beyond machine-generated text detection and include a frontend interface.
 
 ## 使用方法
 ### 必要准备
+
+#### 数据下载
+
+下载 data 文件夹放到项目根目录：【金山文档 | WPS云文档】 data： https://kdocs.cn/l/cpJ8fNLL7yAK
+
 #### 环境要求
 见 `requirements.txt`。建议基于 `environment.yaml` 安装新的 Conda 环境。
 
