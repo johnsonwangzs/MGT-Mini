@@ -1,0 +1,22 @@
+### model
+model_name_or_path: /data/wangzhuoshang/project/mgtd-sys/detector/ckpt/glm-4-9b-chat
+adapter_name_or_path: /data/wangzhuoshang/project/mgtd-sys/detector/ckpt/glm-4-9b-chat-lora/checkpoint-2000
+trust_remote_code: true
+
+### method
+stage: sft
+do_predict: true
+finetuning_type: lora
+predict_with_generate: true
+
+### dataset
+template: glm4  # 训练和推理时构造 prompt 的模板
+eval_dataset: nlpcc25_task1_dev  # 用于评估的数据集名称。使用逗号分隔多个数据集。
+overwrite_cache: true  # 是否覆盖缓存的训练和评估数据集
+
+### output
+output_dir: /data/wangzhuoshang/project/mgtd-sys/detector/log/predict_result/glm4_lora_sft_3_2000
+overwrite_output_dir: true
+
+### generation
+do_sample: false  # 确定性任务不采样

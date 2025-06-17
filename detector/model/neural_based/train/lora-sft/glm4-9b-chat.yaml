@@ -1,0 +1,4 @@
+model_name_or_path: /data/wangzhuoshang/resource/models/glm-4-9b-chat/
+template: glm4
+infer_backend: huggingface  # choices: [huggingface, vllm]
+trust_remote_code: true
