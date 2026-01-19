@@ -4,6 +4,9 @@ Code for NLPCC2025 (Shared Task1) paper: **EnsemJudge: Enhancing Reliability in 
 
 **Disclaimer:** This repository only showcases the intermediate code and results during the competition (https://github.com/NLP2CT/NLPCC-2025-Task1), in which we achieved **first place**. Since then, we have significantly expanded the system. Its capabilities now go beyond machine-generated text detection and include a frontend interface. Feel free to contact us (https://github.com/ASCII-LAB) if you are interested. 
 
+<img width="2534" height="1309" alt="preview" src="https://github.com/user-attachments/assets/51fee1d3-7832-4725-823b-4a300f1e51b3" />
+
+
 ## 使用方法
 ### 必要准备
 
